@@ -4,7 +4,7 @@ nest_asyncio.apply()
 from pymongo import MongoClient
 
 # Connect to MongoDB
-CONNECTION_STRING = 'mongodb+srv://talalmos:97VsovNUWwy7YuXe@shortsqueeze.rymraqj.mongodb.net/?retryWrites=true&w=majority&appName=ShortSqueeze'
+CONNECTION_STRING = 'mongodb+srv://username:password@shortsqueeze.rymraqj.mongodb.net/?retryWrites=true&w=majority&appName=ShortSqueeze'
 DATABASE_NAME = 'IBKR_db'
 COLLECTION_NAME = 'ohlc_data_1'
 
